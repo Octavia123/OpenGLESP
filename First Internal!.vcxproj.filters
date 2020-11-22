@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Memory Tools">
+      <UniqueIdentifier>{206740f1-1f18-4c4c-ab20-4d1a95b41a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GetModuleBase">
+      <UniqueIdentifier>{c1eb0074-f7ad-40e1-9a86-8274f2b1068b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Hooking">
+      <UniqueIdentifier>{d9084b23-e7a8-4a65-a8ac-7e659f65d997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{c27fb391-c664-44d7-8b59-d26c319223b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL Text">
+      <UniqueIdentifier>{333fd058-71d2-4482-8160-9094786caf8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geom">
+      <UniqueIdentifier>{112a4fd5-4090-4481-a455-6fbc80a60f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extra Sensory Perception">
+      <UniqueIdentifier>{5f631090-efc0-401c-a7ac-d7d3fe7fd92d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Memory.h">
+      <Filter>Memory Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GetModuleBase.h">
+      <Filter>GetModuleBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.h">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLText.h">
+      <Filter>OpenGL Text</Filter>
+    </ClInclude>
+    <ClInclude Include="geom.h">
+      <Filter>Geom</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>Extra Sensory Perception</Filter>
+    </ClInclude>
+    <ClInclude Include="assaultcube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Memory Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLText.cpp">
+      <Filter>OpenGL Text</Filter>
+    </ClCompile>
+    <ClCompile Include="geom.cpp">
+      <Filter>Geom</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>Extra Sensory Perception</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
